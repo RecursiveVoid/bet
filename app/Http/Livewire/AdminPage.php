@@ -10,4 +10,9 @@ class AdminPage extends Component
     {
         return view('livewire.admin-page');
     }
+
+    public function backToMenu()
+    {
+        return redirect()->to('/');
+    }
 }

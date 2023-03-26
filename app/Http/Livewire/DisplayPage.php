@@ -30,4 +30,9 @@ class DisplayPage extends Component
     public function getActivePage() {
         return $this->activePage;
     }
+
+    public function backToMenu()
+    {
+        return redirect()->to('/');
+    }
 }

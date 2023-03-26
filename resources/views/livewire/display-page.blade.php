@@ -1,3 +1,7 @@
+<div>
+<button  wire:click="backToMenu" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Back to Menu
+</button>
 @if ($this->activePage == \App\Http\Livewire\ActivePage::Default)
     <div class="flex items-center justify-center min-h-screen py-12 bg-gray-50 sm:px-6 lg:px-8">
         <div class="flex flex-col justify-around">
@@ -20,8 +24,10 @@
 @endif
 
 @if ($this->activePage == \App\Http\Livewire\ActivePage::AdminPage)
+
     <livewire:admin-page/>
 @endif
 @if ($this->activePage == \App\Http\Livewire\ActivePage::BetPlatform)
     <livewire:bet-platform/>
 @endif
+</div>

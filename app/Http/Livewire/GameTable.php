@@ -39,4 +39,12 @@ class GameTable extends Component
         $this->emit('createGame',[$this->hostingTeamName, $this->oppositeTeamName]);
         $this->hideErrorMessage();
     }
+
+    public function removeGame($index) {
+        $this->emit('removeGame',$index);
+    }
+
+    public function refresh() {
+        $this->emit('refresh');
+    }
 }
