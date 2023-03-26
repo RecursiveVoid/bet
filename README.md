@@ -3,6 +3,8 @@ Sorry for the bad design. First time using liveWire, AlpineJs with PHP and there
 
 At first implementation i created Models for Game and Team, then forgot to use them in the components. Instead i just created javascript objects in (x-init) and saved them in localStorage. (please check browser console/application/localStorage)
 
+P.S: Please press the refresh Team List button after adding team to see the latest added teams in the dropdownbox. 
+
 ## To run: 
 <code>npm install
 npm run dev 
