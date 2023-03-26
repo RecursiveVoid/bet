@@ -4,6 +4,7 @@ Sorry for the bad design. First time using liveWire, AlpineJs with PHP and there
 At first implementation i created Models for Game and Team, then forgot to use them in the components. Instead i just created javascript objects in (x-init) and saved them in localStorage. (please check browser console/application/localStorage)
 
 P.S: Please press the refresh Team List button after adding team to see the latest added teams in the dropdownbox. 
+
 P.P.S: The win/lose amount of the teams are redundant. I actually wanted to create a virtual timer for the created games which teams have a randomized chance to score, But unfortunately tomorrow is (monday) and i need to go to work and didn't wanted to make it more complicated so the basic functionality is: 
 
 Admin Functionalities:
