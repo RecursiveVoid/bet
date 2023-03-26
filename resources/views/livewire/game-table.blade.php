@@ -17,7 +17,6 @@
                 opponentTeamVote: 0,
                 hostingTeamVote: 0,
             };
-            console.log(game);
             games.push(game);
             localStorage.setItem('games', JSON.stringify(games));
         });
