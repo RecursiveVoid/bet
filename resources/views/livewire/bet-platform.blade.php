@@ -44,9 +44,9 @@
         <div x-show="showModal" click.away="showModal = false">
             <div class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center">
                 <div class="bg-white p-6 rounded-lg">
-                    <h2 class="text-xl font-bold mb-4">You Voted For:</h2>
-                    <p x-text='lastVotedTeamName' class="mb-4"></p>
-                    <button class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" @click="showModal = false">Close</button>
+                    <h2 class="text-xl font-bold mb-4">You Voted For</h2>
+                    <p class = 'mb-5 text-2xl text-gray-900 dark:text-black' x-text='lastVotedTeamName' class="mb-4"></p>
+                    <button class=" py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" @click="showModal = false">Close</button>
                 </div>
             </div>
         </div>

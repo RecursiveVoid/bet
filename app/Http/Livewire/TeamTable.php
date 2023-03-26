@@ -8,8 +8,6 @@ use Livewire\Component;
 class TeamTable extends Component
 {
     public $teamName;
-    public $winAmount;
-    public $loseAmount;
 
     public function addTeam()
     {
