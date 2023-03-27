@@ -26,9 +26,9 @@ php artisan serve
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RecursiveVoid/bet/blob/main/betTest.gif?raw=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/RecursiveVoid/bet/blob/main/betTestl.gif?raw=true">
-  <img alt="Overview of the startup of the webpage" src="https://github.com/RecursiveVoid/bet/blob/main/betTest.gif?raw=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RecursiveVoid/bet/blob/main/betTest.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/RecursiveVoid/bet/blob/main/betTest.gif">
+  <img alt="Overview of the startup of the webpage" src="https://github.com/RecursiveVoid/bet/blob/main/betTest.gif">
 </picture>
 </p>
 
